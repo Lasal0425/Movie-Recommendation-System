@@ -24,7 +24,7 @@ This project is a content-based movie recommendation system built in Python usin
 ---
 
 ## 📁 Project Structure
-Movie-Recommendation-System/n
+Movie-Recommendation-System/
 ├── README.md
 ├── *.ipynb (Google Colab notebooks)
 └── data/
