@@ -5,14 +5,14 @@ import MovieCard from './components/MovieCard';
 import SearchBar from './components/SearchBar';
 import FilterSection from './components/FilterSection';
 import RecommendationSection from './components/RecommendationSection';
+import { fetch } from './movies';
 
 // Static mock data for display purposes
 const SAMPLE_MOVIES = [
 	{
 		id: 1,
 		title: 'The Dark Knight',
-		poster:
-			'https://via.placeholder.com/300x450/1f2937/ffffff?text=The+Dark+Knight',
+		poster:'https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg',
 		rating: 9.0,
 		year: 2008,
 		genres: ['Action', 'Crime', 'Drama'],
